@@ -27,7 +27,8 @@ body {
 #viagem {
   box-sizing: border-box;
   width: 1120px;
-  margin: 88px auto 0px;
+  height: 3054px;
+  margin: 88px auto 65px;
 }
 
 #viagem span {
@@ -43,11 +44,80 @@ body {
   font-weight: 700;
 }
 
-#viagem p {
+#viagem img {
+  border-radius: 28px;
+}
+
+#viagem .subtitle {
   color: var(--text-secondary);
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
   margin: 24px auto 40px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: var(--border-primary);
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: none;
+}
+
+main #sections .destinies img {
+  margin: 64px auto 20px;
+  border-radius: 28px;
+}
+
+main #sections .destinies h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+main #sections .destinies p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+main #sections .destinies h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+main #sections #first-destiny ul li,
+main #sections #second-destiny ul li {
+  color: var(--accent-blue);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main #sections #third-destiny ul li {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main #sections #third-destiny ul li::marker {
+  color: var(--text-secondary);
+}
+
+main #sections #third-destiny ul li.couples {
+  color: var(--accent-purple);
+}
+
+main #sections #third-destiny ul li.families {
+  color: var(--accent-pink);
+}
+
+main #sections #third-destiny ul li.budget {
+  color: var(--accent-orange);
 }
