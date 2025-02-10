@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --background-default: #f5f4f0;
   --border-primary: #d9d9d9;
@@ -12,7 +17,37 @@
   --accent-pink: #e5245e;
   --accent-purple: #591b98;
 
-  margin: 0;
-  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--background-default);
+}
+
+#viagem {
   box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto 0px;
+}
+
+#viagem span {
+  color: var(--text-headline);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#viagem h1 {
+  color: var(--text-primary);
+  margin: 8px auto 40px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#viagem p {
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin: 24px auto 40px;
 }
