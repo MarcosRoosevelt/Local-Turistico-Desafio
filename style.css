@@ -121,3 +121,22 @@ main #sections #third-destiny ul li.families {
 main #sections #third-destiny ul li.budget {
   color: var(--accent-orange);
 }
+
+#viagem main .the-end {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+footer {
+  margin: 65px auto 0px;
+}
+
+footer p {
+  font-family: "Alice", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 24px;
+}
